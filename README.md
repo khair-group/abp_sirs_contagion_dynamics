@@ -14,6 +14,9 @@ for a detailed discussion on compartmental models in epidemiology.
     (iii) "steady_state_results_contagion_dynamics.m" is a driver routine that calls (ii) and stores the steady-state
        values of {S,I,R} for a range of epidemiological constants {\beta,\gamma,\alpha}.
 
+The macroscopic model codes are slightly modified versions of the material uploaded by Giovanni Valentini on Mathworks 
+File Exchange [https://www.mathworks.com/matlabcentral/fileexchange/75100-sir-epidemic-spread-model].
+
 The microscopic model for contagion dynamics considers each member of the various populations as a self-propelled agent, 
 i.e., an active Brownian particle. 
 
